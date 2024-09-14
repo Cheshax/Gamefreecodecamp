@@ -1,0 +1,87 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: antiquewhite;
+}
+#allcontain{display: flex; height: 80vh;     flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+#container{
+    background-color: rgb(13, 11, 36);  
+    max-width: 600px;
+    min-width: 600px;
+}
+
+span{
+    color: aliceblue;
+}
+.dialogue{
+    color: aliceblue;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    padding-top: 10px;
+}
+button{
+    font-size: 15px;
+    cursor: pointer;
+    display: flex;
+    background-color: rgb(252, 252, 252);
+    
+}
+button:hover{
+    background-color: rgb(202, 208, 212);
+    
+}
+.moveselect{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.stats{
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 40vh;
+}
+#Monster{
+    padding-left: 10px;
+}
+#monsterstat{
+    background-color: red;
+    height: 5vh;
+width: 600px;    
+display: flex;
+align-items: center;
+border-radius: 5px; 
+
+
+}
+#monsterstatcontainer{
+    display: flex;
+    justify-content: center;
+    
+}
+
+#Lvltext{
+    color: rgb(0, 252, 96);
+}
+#Hptext{
+    color: red;
+}
+#goldtext{
+    color: gold;
+}
+#dialoguetext{
+    font-size: medium;
+    font-weight: 100;
+}
+#monsterhealthcontain{
+    padding-left: 40px;
+}
+    
